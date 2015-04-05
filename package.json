@@ -1,0 +1,30 @@
+{
+  "name": "mongodb-connection",
+  "version": "1.0.0",
+  "description": "Simplifies connection and authorisation with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --report html --dir ./report/coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schornio/mongodb-connection.git"
+  },
+  "keywords": [
+    "mongodb",
+    "connect",
+    "authorize",
+    "singleton"
+  ],
+  "author": "Thomas Schorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schornio/mongodb-connection/issues"
+  },
+  "homepage": "https://github.com/schornio/mongodb-connection",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.1"
+  }
+}
