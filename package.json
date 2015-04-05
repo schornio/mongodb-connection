@@ -26,5 +26,8 @@
     "expect.js": "^0.3.1",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "mongodb": "^2.0.25"
   }
 }
