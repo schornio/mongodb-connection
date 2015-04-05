@@ -4,7 +4,7 @@ Simplifies connection and authorisation with MongoDB
 
 ## Usage
 
-** Connect with MongoDB-URL**
+**Connect with MongoDB-URL**
 
     var config = {
       url: 'mongodb://example.com/test_db'
@@ -16,7 +16,7 @@ Simplifies connection and authorisation with MongoDB
 
     });
 
-** Connect with credentials**
+**Connect with credentials**
 
     var config = {
       url: 'mongodb://example.com/test_db',
@@ -32,7 +32,7 @@ Simplifies connection and authorisation with MongoDB
 
     });
 
-** Connect using a singleton**
+**Connect using a singleton**
 
     var config = {
       url: 'mongodb://example.com/test_db'
