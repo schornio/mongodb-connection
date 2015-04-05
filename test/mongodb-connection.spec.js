@@ -34,6 +34,8 @@ describe('MongodbConnection', function () {
     });
   });
 
+  it('should connect to a MongoDB instance by db-config-object');
+
   it('should authorize when credentials are given', function (done) {
     var config = {
       url: 'mongodb://example.com/test_db',
@@ -66,6 +68,8 @@ describe('MongodbConnection', function () {
       done();
     });
   });
+
+  it('should authorize against admin database');
 
   it('should provide a singleton', function (done) {
     var config = {
