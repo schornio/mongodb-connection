@@ -1,6 +1,6 @@
 {
   "name": "mongodb-connection",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Simplifies connection and authorisation with MongoDB",
   "main": "index.js",
   "scripts": {

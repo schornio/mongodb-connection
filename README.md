@@ -1,4 +1,5 @@
 # mongodb-connection
+*Attention: UNSTABLE - do not use in production!*
 
 Simplifies connection and authorisation with MongoDB
 
