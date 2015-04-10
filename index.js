@@ -1,15 +1,18 @@
 'use strict';
 /* jslint node: true */
 
-var MongoClient = require('mongodb').MongoClient;
+var mongodb = require('mongodb');
+var MongoClient = mongodb.MongoClient;
 
 function MongodbConnection(config) {
   if(!(this instanceof MongodbConnection)) {
     return new MongodbConnection(config);
   }
-  
+
   this.config = config;
 }
+
+MongodbConnection.mongodb = mongodb;
 
 MongodbConnection.prototype.connect = function (callback) {
   var self = this;

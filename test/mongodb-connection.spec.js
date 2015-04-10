@@ -100,6 +100,8 @@ describe('MongodbConnection', function () {
     });
   });
 
+  it('should expose mongodb library');
+
   it('should always create a new MongodbConnection on constructor call', function () {
     var cMongodbConnection = MongodbConnection;
     var instance = cMongodbConnection();
